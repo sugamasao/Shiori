@@ -1,8 +1,8 @@
 listen 3000
 timeout 180
 worker_processes 1   # CPUコア数に合わせる
-working_directory "/var/lib/shiori/"
+working_directory "/var/lib/Shiori/"
 
-pid "/var/run/shiori.pid"
-stderr_path "/var/log/shiori.log"
-stdout_path "/var/log/shiori.err"
+pid "/var/run/Shiori.pid"
+stderr_path "/var/log/Shiori.log"
+stdout_path "/var/log/Shiori.err"
