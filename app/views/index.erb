@@ -1,0 +1,25 @@
+<h1>登録したURL一覧</h1>
+<%= will_paginate @bookmarks %>
+<div>
+  <a href='/new'>新規登録</a>
+</div>
+<table class='table table-striped table-bordered table-hover'>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>URL</th>
+      <th>登録日</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @bookmarks.each do |bookmark| %>
+      <tr>
+        <td><%= h bookmark.id %></td>
+        <td><a href='<%= h bookmark.url %>'><%= h bookmark.url %></a></td>
+        <td><%= h bookmark.created_at %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<%= will_paginate @bookmarks %>
+

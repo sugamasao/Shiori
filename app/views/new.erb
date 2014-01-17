@@ -1,0 +1,20 @@
+<h1>URLの登録</h1>
+
+<% if @bookmark && @bookmark.errors.any? %>
+  <div class='alert alert-danger'>
+    <ul>
+    <% @bookmark.errors.full_messages.each do |message| %>
+      <li><%= h message %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>
+
+<form method='post' action='/create'>
+  <div class='form-group'>
+    <input name='authenticity_token' value="<%= h session[:csrf] %>" type='hidden' />
+    <label for='url'>URL</label>
+    <input type='text' class='form-control' id='url' name='url' placeholder='Enter URL'>
+  </div>
+  <button type='submit' class='btn btn-default'>Submit</button>
+</form>

@@ -1,0 +1,17 @@
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: shiori
+  pool: 5
+  username: shiori_user
+  password: shiori_pass
+  host: 127.0.0.1
+
+development:
+  adapter: sqlite3
+  database: db/sqlite.db
+
+test:
+  adapter: sqlite3
+  database: db/sqlite.test.db
+
