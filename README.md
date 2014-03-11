@@ -1,7 +1,15 @@
-# Ruby編サンプルスクリプト
+# サンプルアプリケーション Shiori
 
 ## これはなに
-URLを登録するブックマークサイトです。
+
+これは下記書籍向けのサンプルサプリケーションとして作成されたものです。
+
+[Webアプリエンジニア養成読本 ［しくみ、開発、環境構築・運用…全体像を最新知識で最初から! ］(Software Design plus)](http://www.amazon.co.jp/exec/obidos/ASIN/4774163678/masadiary08-22/)
+
+![表紙画像](http://ecx.images-amazon.com/images/I/51b-W0r%2B9XL._SL500_AA300_.jpg)
+
+URLを登録するだけの単純なウェブアプリケーションです。
+
 提供する機能は以下の通り
 
 - URLの登録
