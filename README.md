@@ -8,7 +8,7 @@
 
 ![表紙画像](http://ecx.images-amazon.com/images/I/51b-W0r%2B9XL._SL500_AA300_.jpg)
 
-URLを登録するだけの単純なウェブアプリケーションです。
+任意のURLを登録するだけの単純なウェブアプリケーションです。
 
 提供する機能は以下の通り
 
@@ -68,7 +68,7 @@ $ bundle exec rspec
 
 ## RakeタスクでCSVを出力する
 
-rakeコマンドでcsvというタスクを実行することで、データベースに保存されているbookmark.csvというCSVファイルを生成します。
+rakeコマンドでcsvというタスクを実行することで、データベースに保存されているデータをbookmark.csvというCSVファイルに出力できます。
 
 ```
 $ bundle exec rake csv
