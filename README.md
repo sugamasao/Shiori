@@ -1,4 +1,4 @@
-# サンプルアプリケーション Shiori
+# サンプルアプリケーション Shiori [![Code Climate](https://codeclimate.com/github/sugamasao/Shiori.png)](https://codeclimate.com/github/sugamasao/Shiori)
 
 ## これはなに
 
